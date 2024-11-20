@@ -1,0 +1,28 @@
+body, div {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del menú */
+.menu {
+    display: flex; /* Coloca los elementos en línea horizontal */
+    list-style: none; /* Elimina los puntos de la lista */
+    background-color: #b89d2b; /* Color de fondo del menú */
+    padding: 10px; /* Espaciado interno del menú */
+    justify-content: space-around; /* Espacio uniforme entre elementos */
+}
+
+/* Estilo de los enlaces */
+.menu li a {
+    text-decoration: none; /* Sin subrayado */
+    color: #050505; /* Color del texto */
+    padding: 10px 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Animación en hover */
+}
+
+/* Hover en enlaces */
+.menu li a:hover {
+    background-color: #ffffff; /* Cambia el fondo al pasar el cursor */
+    color: #ffffff; /* Color del texto en hover */
+}
